@@ -45,7 +45,7 @@ const HomeAddressPage: React.FC = () => {
   };
 
   useEffect(() => {
-    sendRequest('/category-list');
+    sendRequest('/products/category-list');
   }, [sendRequest]);
 
   const handleBack = () => navigate("/");

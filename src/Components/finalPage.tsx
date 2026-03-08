@@ -49,7 +49,7 @@ const FinalPage: React.FC = () => {
     if (!validate()) return;
 
     try {
-      await sendRequest('/add', {
+      await sendRequest('/products/add', {
         method: 'POST',
         body: { ...formAddress, ...userForm, ...loanAmount },
       });
