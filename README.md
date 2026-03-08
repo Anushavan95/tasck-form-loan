@@ -24,5 +24,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone [https://github.com/your-username/loan-app.git](https://github.com/your-username/loan-app.git)
-cd loan-app
+git clone [https://github.com/Anushavan95/tasck-form-loan](https://github.com/Anushavan95/tasck-form-loan)
+cd loan-form-vite
+install modules
+run npm run dev
